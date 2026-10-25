@@ -1,0 +1,24 @@
+﻿Manastik Medico - QA Automation Results
+Date: 25 October 2026
+Platform: Android Emulator
+Package: com.manastik.dadtmedico
+Framework: Maestro
+
+Test 1: verification-pending.yaml
+Result: PASS (previous successful run)
+Expected: Verification in progress screen is visible.
+
+Test 2: app-launch.yaml
+Result: PASS
+Expected: App launches and the Verification in progress heading is visible.
+Selector: Regex text match
+
+Note:
+Both flows verify the same screen and are not independent functional tests.
+
+Test 3: verification-status.yaml
+Result: PASS
+Assertions:
+- Verification in progress heading is visible.
+- Submission confirmation message is visible.
+Note: This test checks the pending-verification screen, not final account approval.

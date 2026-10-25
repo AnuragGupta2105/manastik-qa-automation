@@ -1,0 +1,22 @@
+﻿# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+
+# Dependencies and temporary files
+node_modules/
+.venv/
+venv/
+*.log
+~$*.docx
+.DS_Store
+Thumbs.db
+
+# Android APKs
+*.apk
+
+# Local editor settings
+.vscode/
+.idea/

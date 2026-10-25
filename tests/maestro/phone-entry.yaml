@@ -1,0 +1,10 @@
+﻿appId: com.manastik.dadtmedico
+---
+- launchApp
+- waitForAnimationToEnd
+- assertVisible:
+    text: "Login to your account"
+- assertVisible:
+    text: "Enter your phone number"
+- assertVisible:
+    text: "Send OTP"

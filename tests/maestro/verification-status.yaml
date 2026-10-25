@@ -1,0 +1,8 @@
+﻿appId: com.manastik.dadtmedico
+---
+- launchApp
+- waitForAnimationToEnd
+- assertVisible:
+    text: ".*Verification in progress.*"
+- assertVisible:
+    text: ".*Thanks for submitting your details.*"

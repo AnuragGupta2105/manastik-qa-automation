@@ -1,0 +1,6 @@
+﻿appId: com.manastik.dadtmedico
+---
+- launchApp
+- waitForAnimationToEnd
+- assertVisible:
+    text: "Get Started"
